@@ -229,7 +229,7 @@ JOIN Mensajes m ON u1.id = m.emisor_id;
 SELECT *
 FROM Mensajes
 WHERE (emisor_id = 4 AND receptor_id = 2)
-   OR (emisor_id = 1 AND receptor_id = 2)
+   OR (emisor_id = 2 AND receptor_id = 4)
 ORDER BY id;
 
 
